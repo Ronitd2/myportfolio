@@ -60,7 +60,8 @@ export default function Project(){
                                 </div>
                                 </div>
                                 <hr className="bg-gray-500 mt-2"/>
-                                <p className="text-gray-400 text-sm sm:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <p className="text-gray-400 text-sm sm:text-md">Created a user-centric tour and travel website for seamless trip planning. Users can book train tickets
+                                and hotels, explore destination details, and create personalized to-do lists.</p>
                             </div>
                         </div>
                         </AnimationOnScroll>
@@ -104,7 +105,9 @@ export default function Project(){
                                 </div>
                                 </div>
                                 <hr className="bg-gray-500 mt-2"/>
-                                <p className="text-gray-400 text-sm sm:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <p className="text-gray-400 text-sm sm:text-md">Developed a collaborative coding platform for real-time, multi-user coding. Admins control access, 
+and users join rooms to code together. Features include a self code editor, a chat section, and a 
+chatbot using the Google BERT API for coding assistance.</p>
                             </div>
                         </div>
                         </AnimationOnScroll>
@@ -118,7 +121,7 @@ export default function Project(){
                             <div className="mt-2 p-3">
                                 <div className="flex justify-between">
                                 <p className="text-xl sm:text-2xl sm:font-bold text-white ">Coronary-Heart-Disease-Prediction</p>
-                                <img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/>
+                                <a href="https://heart-disease-detection-model.vercel.app/"><img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/></a>
                                 </div>
                                 <div className="hidden  sm:flex sm:gap-3 flex-wrap sm:mt-2">
                                 <div className="p-1  bg-[#3F4E4F] text-blue-400  flex  sm:gap-2 gap-1 w-24 rounded-xl justify-center item center">
@@ -144,7 +147,8 @@ export default function Project(){
                                 
                                 </div>
                                 <hr className="bg-gray-500 mt-2"/>
-                                <p className="text-gray-400 text-sm sm:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <p className="text-gray-400 text-sm sm:text-md">Built a machine learning model to predict coronery heart disease based on age, BMI, smoking, stroke 
+                                history, and many more.</p>
                             </div>
                         </div>
                         </AnimationOnScroll>

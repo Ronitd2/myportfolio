@@ -35,7 +35,9 @@ export default function Contact()
 
                     <textarea id="message" rows="4" class=" mt-4 block p-2.5 w-full sm:w-[50%] mx-auto text-sm text-white bg-transparent rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500  placeholder-gray-400 placeholder:font-bold " placeholder="Write your thoughts here..."></textarea>
 
-                    {/* <button  className="h-10 allign border-gray-400  justify-center border-4 rounded-lg ">Send message</button> */}
+                    <div className="flex justify-center mt-4">
+                    <button  className="  p-2 bg-[#59CE8F] rounded-lg text-md font-semibold text-white ">Submit</button>
+                    </div>
                     </div>
                     </AnimationOnScroll>
                 </div>

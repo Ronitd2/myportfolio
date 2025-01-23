@@ -5,7 +5,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useTypewriter} from 'react-simple-typewriter'
 import github from "./images/ggg.png"
 import resume from "../assets/resume.jpg"
-import resumepdf from "../assets/RonitDas_Resume.pdf"
+
 export default function Home()
 {
     const [text] = useTypewriter({
@@ -25,14 +25,14 @@ export default function Home()
                     <p className="inline  text-2xl sm:text-4xl text2 font-semibold">A self-taught developer with an
                         interest in Computer Science.</p>
                     <div className="flex gap-4 mt-8">
-                        <a href={resumepdf}>
+                        
                         <div className="bg-[#3F4E4F] rounded-lg  hover:bg-[#389f68]  w-auto p-2 text-center flex gap-2 items-center justify-center">
                         
                             <img className="w-5 h-6 " src={resume}></img>
                            <p className="text-white font-semibold">View CV</p>
                            
                         </div>
-                        </a>
+                        
 
                         <a href="https://github.com/Ronitd2">
                         <div className="bg-[#3F4E4F] rounded-lg hover:bg-[#389f68]  w-auto p-2 text-center  flex gap-2 items-center justify-center">
